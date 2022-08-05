@@ -1,0 +1,60 @@
+.footer-card{
+    margin: 20px;
+}
+.footer-contact{
+    margin: 20px;
+}
+.footer-contact p{
+    font-size: 18px;
+}
+.footer-contact .icon{
+    font-size: 22px;
+    margin-right: 8px;
+    margin-top: 3px;
+    color: #ea2129;
+}
+.footer-contact .sicon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #14469f;
+    margin:0px 10px;
+}
+.footer-contact .sicon .ficon{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 9px;
+    margin-top: 9px;
+}
+.footer-contact .sicon .iicon{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.footer-contact .sicon .licon{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.footer-contact .sicon .yicon{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.footers{
+    background-color: #14469f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 17px;
+}
+.footers p{
+    color: #fff;
+    font-size: 18px;
+}
+.footers p a{
+    color: #fff;
+}

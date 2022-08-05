@@ -1,0 +1,265 @@
+
+.inner-hero{
+  text-align: center;
+}
+.inner-hero .parallalx{
+  background-image: url("../../img/back.jpg");
+  min-height: 200px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about .parallalx{
+  background-image: url("../../img/back.jpg");
+  min-height: 70vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about .parallal-content p{
+  color:#fff;
+  text-align: justify;
+  font-size: 17px;
+}
+.parallal-content h4{
+  color:#fff;
+  text-align: center;
+  padding-top: 80px;
+}
+.about .parallal-content h4{
+  color:#fff;
+  text-align: center;
+  padding-top: 80px;
+}
+.about-text p{
+  text-align: justify;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+/* advisory committee */
+
+.advisory-committee{
+    background-color: #fff;
+  }
+  .advisory-committee .rows{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .advisory-committee h2{
+    text-align: center;
+      color: #14469f;
+    font-weight: bold;
+  }
+  .advisory-committee .our-team{
+    transition: all 0.5s ease 0s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 15px;
+    cursor: pointer;
+    width: 210px;
+  }
+  .advisory-committee .our-team:hover{
+    transform: scale(1.05); 
+  }
+  .advisory-committee .our-team .team-image{
+    position: relative;
+    text-align: center;
+  }
+  .advisory-committee .our-team img{
+    width: 100%;
+    height: 200px;
+  }
+  
+.advisory-committee .our-team .description{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+    padding: 12px 10px;
+    opacity: 0;
+    background-color: rgba(1, 1, 1, 0.6);
+    transition: all 0.5s ease 0s;
+  }
+  
+.advisory-committee .our-team:hover .description{
+    opacity: 1;
+    background-color: #000;
+  }
+
+  .advisory-committee .our-team .team-info{
+    padding: 10px 7px;
+    text-align: center;
+  }
+  .advisory-committee .our-team .title{
+    font-size: 18px;
+    color: #3b336a;
+    margin: 0 0 15px 0;
+    transition: all 0.5s ease 0s;
+    font-weight: bold;
+  }
+  
+.advisory-committee .our-team .post{
+    display: block;
+    font-size: 15px;
+    font-weight: 550;
+    color: #3b336a;
+    text-transform: capitalize;
+    margin-top: -10px;
+  }
+
+  @media only screen and (max-width: 990px){
+    .advisory-committee .our-team{ margin-bottom: 30px; }
+   }
+   
+   .advisory-committee .more-speakers-button{
+     text-align: center;
+   }
+   .advisory-committee .more-speakers-button button{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+  }
+
+  
+@media only screen and (max-width: 1250px){
+    .advisory-committee .our-team{
+      margin: 5px;
+      width: 210px;
+    }
+  }
+
+  /* objectives */
+
+  .objectives li{
+    padding: 6px;
+    font-size: 17px;
+  }
+
+  /* thematic */
+
+ .Organizing .highlight_nye{
+    background-color:  #fff;
+    /* background-color: #faf0dc; */
+    /* background-color: #ffffff; */
+  }
+  .Organizing .our-team{
+    height: 315px;
+  }
+  .highlight_nye h3{
+    text-align: center;
+    color: #14469f;
+    font-weight: bold;
+  }
+  .highlight-card{
+    position: relative;
+  }
+  .highlight-card .card:hover{
+    transform: scale(1.07); 
+    background-color:#f46f20;
+  }
+  .highlight-card .card{
+    transition: transform .2s;
+    /* background-color:  #0b4141; */
+    background-color:  #14469f;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+  }
+  .highlight-card .card h1{
+    font-weight: bold;
+    padding: 15px 0px 1px 0px;
+    color: #fff;
+  }
+  .highlight-card .card p{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+  }
+  .highlight-card .peope-icon{
+    height: 40px;
+    width: 40px;
+    /* background-color: #ff6864; */
+    background-color: #ea2129;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: -18px;
+  }
+  .highlight-card .peope-icon .icon{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 7px;
+    color: #fff;
+  }
+
+.neyoutcome ul li{
+    list-style: none;
+    background-color: #14469f;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  .neyoutcome ul li:hover{
+    background-color: #f46f20;
+  }
+  .apply{
+    text-align: center;
+  }
+  .apply h4{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #fff;
+  }
+  .apply h4::after{
+    content: "";
+    width: 100px;
+    border-bottom: 3px solid #f46f20;
+    display: block;
+    margin: 8px auto;
+  }
+  .apply p{
+    color: #fff;
+    font-size: 17px;
+    margin-top: -8px;
+  }
+  .applies{
+    border-top: 1px solid #fff;
+    background: url('../../img/parll.webp')no-repeat;
+    block-size: cover;
+  }
+  .apply button{
+    width: 135px;
+    font-size: 19px;
+    font-weight: 500;
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: #f46f20;
+    color: #fff;
+    border-radius: 10px;
+  }
+  .apply button:hover{
+    border: 2px solid #f46f20;
+    color: #f46f20;
+    background-color: #fff;
+  }
+  .apply-form h2{
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+  }
+  

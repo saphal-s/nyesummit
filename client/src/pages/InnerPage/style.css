@@ -263,3 +263,25 @@
     padding: 30px;
   }
   
+  .faq-head h2{
+    text-align: center;
+    color: #14469f;
+  font-weight: bold;
+  }
+  .faq .qa h4{
+    font-size: 22px;
+    padding: 10px 0px;
+  }
+  .faq .qa p{
+    text-align: justify;
+    font-size: 17px;
+  }
+
+  .hand{
+    color: #f46f20;
+    font-size: 18px;
+  }
+  .faq li{
+    list-style: none;
+    padding: 5px;
+  }

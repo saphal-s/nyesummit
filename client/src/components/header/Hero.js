@@ -20,7 +20,7 @@ const Hero = () => {
                             <h2 className='carousel_head'>Nepal</h2>
                         </div>
                         <div className="deadline">
-                            <h4>27<sup>TH</sup> August, 9:00AM - 7:00PM <br /><br />
+                            <h4>11<sup>TH</sup> September,2022 9:00AM - 7:00PM <br /><br />
                                 Soaltee Hotel, Kathmandu, Nepal </h4>
                         </div>
                     </Carousel.Caption>
@@ -39,7 +39,7 @@ const Hero = () => {
                             <h2 className='carousel_head'>Nepal</h2>
                         </div>
                         <div className="deadline">
-                            <h4>27<sup>TH</sup> August, 9:00AM - 7:00PM <br /><br />
+                            <h4>11<sup>TH</sup> September,2022 9:00AM - 7:00PM <br /><br />
                                 Soaltee Hotel, Kathmandu, Nepal </h4>
                         </div>
                     </Carousel.Caption>

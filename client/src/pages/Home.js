@@ -12,6 +12,8 @@ import Footer from '../components/footer/Footer';
 import Partners from './Partners';
 import Testimonials from './Testimonials';
 import { Link } from 'react-router-dom';
+import Sponser from './Sponsers';
+import Supporter from './Supporter';
 
 const Home = () => {
     return (
@@ -50,7 +52,7 @@ const Home = () => {
                     <div className="parallax">
                         <div className="col-lg-10 offset-md-1 parallal-content">
                             <h3>Nepal's largest & most comprehensive event on Entrepreneurship sector <br />
-                                organized by the private section in co-operation with government</h3>
+                                organized by the private sector in co-operation with government</h3>
                         </div>
                     </div>
                 </div>
@@ -76,7 +78,7 @@ const Home = () => {
                                         <div className="card">
                                             <h1>30+</h1>
                                             <p>National and<br />
-                                                International Speaker</p>
+                                                International Speakers</p>
                                         </div>
                                         <div className="peope-icon">
                                             <GiPublicSpeaker className='icon' />
@@ -112,7 +114,7 @@ const Home = () => {
                                         <div className="card">
                                             <h1>40+</h1>
                                             <p>Collaboration <br />
-                                                & Partner</p>
+                                                & Partners</p>
                                         </div>
                                         <div className="peope-icon">
                                             <SiKnowledgebase className='icon' />
@@ -124,7 +126,7 @@ const Home = () => {
                                         <div className="card">
                                             <h1>70+</h1>
                                             <p>Startup <br />
-                                                Investor</p>
+                                                Investors</p>
                                         </div>
                                         <div className="peope-icon">
                                             <MdOutlineInvertColors className='icon' />
@@ -490,12 +492,16 @@ const Home = () => {
                                         <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
                                                 <ol type='1'>
-                                                    <li>What is BMG?</li>
-                                                    <li>What is BMG?</li>
-                                                    <li>What is BMG?</li>
-                                                    <li>What is BMG?</li>
-                                                    <li>What is BMG?</li>
-                                                    <li>What is BMG?</li>
+                                                    <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}><li>What is Nepal Youth Entrepreneurship Summit 2022 ?</li></Link>
+                                                    <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}> <li>What does the summit objectives for?</li></Link>
+                                                    <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}><li>Who will attend NYES 2022?</li></Link>
+                                                    <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}> <li>Who will be the summit&#39;s special guest?</li></Link>
+                                                    <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}><li>Where will the summit be held?</li></Link>
+                                                    <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}><li>Will there be possibilities for networking?</li></Link>
+                                                    <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}><li>How do I register?</li></Link>
+                                                    <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}><li>What is the registration fee?</li></Link>
+                                                    <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}><li>What methods are available for payment?</li></Link>
+                                                    <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}><li>Will there be food available?</li></Link>
                                                 </ol>
                                             </div>
                                         </div>
@@ -506,7 +512,43 @@ const Home = () => {
                     </div>
                 </section>
                 <Testimonials />
+
                 <Partners />
+                <div className='partners container pt-5  pb-5' style={{ borderBottom: '3px solid #f54b02' }}>
+                    <div className="title-sponser">
+                        <div className="row">
+                            <div className="col-md-5">
+                                <div className="partners-head pb-3">
+                                    <h2>Title Sponsor</h2>
+                                </div>
+                                <div className="">
+                                    <img src="./images/title.jpg" style={{ height: '100%', width: '100%' }} alt="title-sponser" />
+                                </div>
+                            </div>
+                            <div className="col-md-7">
+                                <div className="partners-head pb-3">
+                                    <h2>In Associantion With</h2>
+                                </div>
+                                <div className="title-sponser2 col-md-8 offset-md-2">
+                                    <div className="row mt-md-3 mt-lg-4">
+                                        <div className="col-md-5 col-lg-5">
+                                            <center>
+                                                <img src="./images/sponsor/NTA.jpg" style={{ width: '200px' }} alt="title-sponser" />
+                                            </center>
+                                        </div>
+                                        <div className="col-md-7 col-lg-7">
+                                            <center>
+                                                <img src="./images/sponsor/worldlink.png" style={{ height: '60px', width: '220px' }} className=' mt-md-5' alt="title-sponser" />
+                                            </center>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <Supporter />
+                <Sponser />
                 <div className="event-venue pt-5">
                     <div className="event-venue-head pb-4">
                         <h2>Event Venue</h2>
@@ -523,7 +565,7 @@ const Home = () => {
                                 </div>
                                 <div className="venue-title">
                                     <h3>Soaltee Hotel,Kathmandu-Nepal</h3>
-                                    <p className='text-white'>27<sup>th</sup> Aug 2022, 9:00AM-7:00PM</p>
+                                    <p className='text-white'>11<sup>th</sup> September, 2022 9:00AM-7:00PM</p>
                                 </div>
                             </div>
                         </div>

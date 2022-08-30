@@ -4,26 +4,25 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import './style.css'
 
-const Partners = () => {
+const Supporter = () => {
 
     var settings = {
         dots: false,
         infinite: true,
         autoplay: false,
         speed: 200,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide: 0,
         responsive: [
             {
                 breakpoint: 1124,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     infinite: true,
                     infinite: true,
                     autoplay: true,
-                    dots: true
                 }
             },
             {
@@ -58,32 +57,42 @@ const Partners = () => {
     };
 
     return (
-        <div className='partners container pt-5 pb-5' style={{ borderBottom: '3px solid #14469f' }}>
-            <div className="partners-head pb-3 pb-md-5">
-                <h2>Organizers</h2>
-            </div>
+        <div className='partners container pt-5 pb-5' style={{ borderBottom: '3px solid red' }}>
             <Slider {...settings} classNam="partner-slider">
                 <center>
+                    <div className="partners-head pb-2">
+                        <h2 style={{ fontSize: '17px' }}>Digital Card Partner</h2>
+                    </div>
                     <div className='carousel-image'>
-                        <img src="./images/sponsor/glogo.png"
-                            alt="" />
-                        <h6 className="text-center"></h6>
+                        <img src="./images/sponsor/hbl.jpg"
+                            style={{ width: '200px', height: "60px" }} alt="" />
                     </div>
                 </center>
                 <center>
+                    <div className="partners-head pb-2">
+                        <h2 style={{ fontSize: '17px' }}>IT Partner</h2>
+                    </div>
                     <div className='carousel-image'>
-                        <a href="#" target="__blank">
-                            <img src="./images/sponsor/nyc.jpg"
-                                alt="" />
-                        </a>
+                        <img src="./images/sponsor/info.jpg"
+                            style={{ width: '200px', height: "60px" }} alt="" />
                     </div>
                 </center>
                 <center>
+                    <div className="partners-head pb-2">
+                        <h2 style={{ fontSize: '17px' }}>Development Banking Partner</h2>
+                    </div>
                     <div className='carousel-image'>
-                        <a href="#" target="__blank">
-                            <img src="./images/sponsor/Bishal.png"
-                                className='w-100 ps-md-5 pe-md-5' alt="" />
-                        </a>
+                        <img src="./images/sponsor/kamana.jpg"
+                            style={{ width: '200px', height: "60px" }} alt="" />
+                    </div>
+                </center>
+                <center>
+                    <div className="partners-head pb-2">
+                        <h2 style={{ fontSize: '17px' }}>Academic Partner</h2>
+                    </div>
+                    <div className='carousel-image'>
+                        <img src="./images/sponsor/uniglobe.jpg"
+                            style={{ width: '180px', height: "60px" }} alt="" />
                     </div>
                 </center>
             </Slider>
@@ -91,4 +100,4 @@ const Partners = () => {
     )
 }
 
-export default Partners
+export default Supporter

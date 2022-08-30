@@ -67,7 +67,7 @@ const Footer = () => {
                 </div>
             </div>
             <footer className='footers'>
-                <p>&copy;2022 Nepal Youth Intrepreneurship summit</p>
+                <p>&copy;2022 Nepal Youth Entrepreneurship summit</p>
                 <p>Powered By <a href="http://www.sinepal.com/" target="__blank" >Smart Innovation</a></p>
             </footer>
         </div >

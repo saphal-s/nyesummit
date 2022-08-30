@@ -61,7 +61,7 @@ const Welcome = () => {
                                     <div className="col-lg-5 col-md-5">
                                         <img src="./images/wimage.jpg" className='w-100 p-4' alt="about_image" />
                                         <div className="post text-center">
-                                            <h3>Mr. Bishal Gire</h3>
+                                            <h3>Mr. Bishal Gaire</h3>
                                             <p className='text-center'>Chairperson, <strong>NYES 2022</strong> Organizing committee</p>
                                         </div>
                                     </div>

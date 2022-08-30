@@ -51,13 +51,9 @@ const Faq = () => {
                         </p>
                         <h4>3. Who will attend NYES 2022?</h4>
                         <p><span><FaHandPointRight className='hand' /></span>
-                            Rt. Hon. President, Former Prime minister, Various ministers, Veteran Entrepreneurs,
+                            Former Prime minister, Various ministers, Veteran Entrepreneurs,
                             Bureaucrats, Bankers, Economic experts, Students, and many other professionals will attend this
                             summit. There will be approximately 600 delegates from across the nation during this summit.
-                        </p>
-                        <h4>4. Who will be the summit&#39;s special guest?</h4>
-                        <p><span><FaHandPointRight className='hand' /></span>
-                            Rt. Hon. Bidhya Devi Bhandari, President of Nepal will attend as the summit&#39;s chief guest.
                         </p>
                         <h4>5. Where will the summit be held?</h4>
                         <p><span><FaHandPointRight className='hand' /></span>
@@ -70,7 +66,7 @@ const Faq = () => {
                         </p>
                         <h4>7. How do I register?</h4>
                         <p><span><FaHandPointRight className='hand' /></span>
-                            To register, simply select a registration option and complete the registration form accordingly.
+                            <a href=" https://www.nyesummit.org/register" target="__blank" className="ms-3">Click Here</a>
                         </p>
                         <h4>8. What is the registration fee?</h4>
                         <p><span><FaHandPointRight className='hand' /></span>
@@ -78,11 +74,16 @@ const Faq = () => {
                         </p>
                         <h4>9. What methods are available for payment?</h4>
                         <p><span><FaHandPointRight className='hand' /></span>
-                            You can pay via ………………………………
+                            <div className='ps-5'>
+                                <h5 className='pb-3'><a className='text-black'>Payment Method</a></h5>
+                                <h6>Account Number: 1501017501098</h6>
+                                <h6>Bank Name: NABIL Bank</h6>
+                                <h6>Account Holder: BISHAL MEDIA GROUP PVT.LTD.</h6>
+                            </div>
                         </p>
                         <h4>10. Will there be food available?</h4>
                         <p><span><FaHandPointRight className='hand' /></span>
-                            Yes, the organizer will also provide you lunch, dinner and tea\coffee at all durining the summit.
+                            Yes, the organizer will also provide you lunch, dinner and tea/coffee at all durining the summit.
                         </p>
                     </div>
                 </div>

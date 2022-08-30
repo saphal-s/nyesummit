@@ -52,7 +52,7 @@ const ThemeA = () => {
                                                     <div className="card">
                                                         <h1>30+</h1>
                                                         <p>National and<br />
-                                                            International Speaker</p>
+                                                            International Speakers</p>
                                                     </div>
                                                     <div className="peope-icon">
                                                         <GiPublicSpeaker className='icon' />
@@ -88,7 +88,7 @@ const ThemeA = () => {
                                                     <div className="card">
                                                         <h1>40+</h1>
                                                         <p>Collaboration <br />
-                                                            & Partner</p>
+                                                            & Partners</p>
                                                     </div>
                                                     <div className="peope-icon">
                                                         <SiKnowledgebase className='icon' />
@@ -100,7 +100,7 @@ const ThemeA = () => {
                                                     <div className="card">
                                                         <h1>70+</h1>
                                                         <p>Startup <br />
-                                                            Investor</p>
+                                                            Investors</p>
                                                     </div>
                                                     <div className="peope-icon">
                                                         <MdOutlineInvertColors className='icon' />

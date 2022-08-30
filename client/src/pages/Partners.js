@@ -58,7 +58,7 @@ const Partners = () => {
     };
 
     return (
-        <div className='partners container pt-5 pb-5' style={{ borderBottom: '3px solid #14469f' }}>
+        <div className='partners container pt-5 pb-4' style={{ borderBottom: '3px solid #14469f' }}>
             <div className="partners-head pb-3 pb-md-5">
                 <h2>Organizers</h2>
             </div>
@@ -67,13 +67,16 @@ const Partners = () => {
                     <div className='carousel-image'>
                         <img src="./images/sponsor/glogo.png"
                             alt="" />
-                        <h6 className="text-center"></h6>
+                        <p className='pt-2'>वाग्मती प्रदेश सरकार <br />
+                            उद्योग, वाणिज्य तथा आपूर्ति मन्त्रालय <br />
+                            हेटौडा, नेपाल</p>
                     </div>
                 </center>
                 <center>
                     <div className='carousel-image'>
                         <a href="#" target="__blank">
                             <img src="./images/sponsor/nyc.jpg"
+                                className='mt-md-4'
                                 alt="" />
                         </a>
                     </div>
@@ -82,7 +85,7 @@ const Partners = () => {
                     <div className='carousel-image'>
                         <a href="#" target="__blank">
                             <img src="./images/sponsor/Bishal.png"
-                                className='w-100 ps-md-5 pe-md-5' alt="" />
+                                className='w-100 ps-md-5 pe-md-5 mt-md-4' alt="" />
                         </a>
                     </div>
                 </center>

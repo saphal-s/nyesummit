@@ -61,7 +61,7 @@ const Sponser = () => {
             <Slider {...settings} classNam="partner-slider">
                 <center>
                     <div className="partners-head pb-2">
-                        <h2 style={{ fontSize: '17px' }}>Tele-Communication Partner</h2>
+                        <h2 style={{ fontSize: '17px' }}>Telecommunication Partner</h2>
                     </div>
                     <div className='carousel-image'>
                         <img src="./images/sponsor/NepalTelecome.jpg"
@@ -70,10 +70,10 @@ const Sponser = () => {
                 </center>
                 <center>
                     <div className="partners-head pb-2">
-                        <h2 style={{ fontSize: '17px' }}>Development Partner</h2>
+                        <h2 style={{ fontSize: '17px' }}>DTH Partner</h2>
                     </div>
                     <div className='carousel-image'>
-                        <img src="./images/sponsor/wwf.jpg"
+                        <img src="./images/sponsor/dishhome.png"
                             style={{ width: '170px', height: "90px" }} alt="" />
                     </div>
                 </center>

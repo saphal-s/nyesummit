@@ -73,7 +73,7 @@ const Supporter = () => {
                         <h2 style={{ fontSize: '17px' }}>IT Partner</h2>
                     </div>
                     <div className='carousel-image'>
-                        <img src="./images/sponsor/info.jpg"
+                        <img src="./images/sponsor/info.JPG"
                             style={{ width: '200px', height: "60px" }} alt="" />
                     </div>
                 </center>

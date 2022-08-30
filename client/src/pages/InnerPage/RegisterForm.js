@@ -24,19 +24,19 @@ const RegisterForm = () => {
                         <div className="col-md-4">
                             <h4>STUDENT REGISTRATION</h4>
                             <p>Registration Fee: Rs.3000</p>
-                            <p>Deadline: 11<sup>th</sup> September,2022</p>
+                            <p>Deadline: 9<sup>th</sup> September, 2022</p>
                         </div>
                         <div className="col-md-4">
                             <h4>CORPORATE REGISTRATION</h4>
                             <p>Registration Fee: Rs.6000</p>
-                            <p>Deadline: 11<sup>th</sup> September,2022</p>
+                            <p>Deadline: 9<sup>th</sup> September, 2022</p>
                         </div>
                         <div className="col-md-4">
                             <h4>
                                 SUMMIT REGISTRATION FEE INCLUDE
                             </h4>
                             <p>All - Summit materials</p>
-                            <p>Lunch, Tea\Coffee Dinner</p>
+                            <p>Lunch, Tea/Coffee, Dinner</p>
                             <p>Certificate of attendence</p>
                         </div>
                     </div>

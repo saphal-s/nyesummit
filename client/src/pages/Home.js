@@ -14,6 +14,8 @@ import Testimonials from './Testimonials';
 import { Link } from 'react-router-dom';
 import Sponser from './Sponsers';
 import Supporter from './Supporter';
+import Developmentp from './Developmentp';
+import Insurance from './Insurance';
 
 const Home = () => {
     return (
@@ -495,7 +497,6 @@ const Home = () => {
                                                     <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}><li>What is Nepal Youth Entrepreneurship Summit 2022 ?</li></Link>
                                                     <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}> <li>What does the summit objectives for?</li></Link>
                                                     <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}><li>Who will attend NYES 2022?</li></Link>
-                                                    <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}> <li>Who will be the summit&#39;s special guest?</li></Link>
                                                     <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}><li>Where will the summit be held?</li></Link>
                                                     <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}><li>Will there be possibilities for networking?</li></Link>
                                                     <Link to='/faq' style={{ textDecoration: 'none', color: '#000', }}><li>How do I register?</li></Link>
@@ -512,7 +513,6 @@ const Home = () => {
                     </div>
                 </section>
                 <Testimonials />
-
                 <Partners />
                 <div className='partners container pt-5  pb-5' style={{ borderBottom: '3px solid #f54b02' }}>
                     <div className="title-sponser">
@@ -527,7 +527,7 @@ const Home = () => {
                             </div>
                             <div className="col-md-7">
                                 <div className="partners-head pb-3">
-                                    <h2>In Associantion With</h2>
+                                    <h2>In Association With</h2>
                                 </div>
                                 <div className="title-sponser2 col-md-8 offset-md-2">
                                     <div className="row mt-md-3 mt-lg-4">
@@ -547,8 +547,10 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                <Developmentp />
                 <Supporter />
                 <Sponser />
+                <Insurance />
                 <div className="event-venue pt-5">
                     <div className="event-venue-head pb-4">
                         <h2>Event Venue</h2>

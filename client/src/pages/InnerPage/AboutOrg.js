@@ -23,7 +23,7 @@ const AboutOrg = () => {
                     <div className="acommittee">
                         <div className="advisory-committed_head pb-5">
                             <h2>
-                                About NB
+                                About Bishal Media Group
                             </h2>
                         </div>
                         <div className="about-text">
@@ -35,7 +35,8 @@ const AboutOrg = () => {
                                         </p>
                                     </div>
                                     <div className="col-lg-6 col-md-6">
-                                        <a href="https://nepalbusiness.com/" target="__blank"> <img src="./images/nblogo.png" className='w-100' alt="about_image" /></a>
+                                        <a href="https://bishalmediagroup.com/" target="__blank" > <img src="./images/sponsor/bmg.png" className='w-100 ps-5 pe-5' alt="about_image" />
+                                            <center> <label htmlFor="" className='pt-2' >www.bishalmediagroup.com</label></center></a>
                                     </div>
                                 </div>
                             </div>

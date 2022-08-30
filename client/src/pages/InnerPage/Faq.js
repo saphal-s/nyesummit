@@ -57,7 +57,7 @@ const Faq = () => {
                         </p>
                         <h4>5. Where will the summit be held?</h4>
                         <p><span><FaHandPointRight className='hand' /></span>
-                            The Summit will be held in Kathmandu at the Soaltee Hotel.
+                            The Summit will be held in Kathmandu at the Soaltee Hotel on 11<sup>th</sup> September, 2022.
                         </p>
                         <h4>6. Will there be possibilities for networking?</h4>
                         <p><span><FaHandPointRight className='hand' /></span>

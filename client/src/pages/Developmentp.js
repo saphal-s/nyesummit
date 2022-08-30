@@ -5,7 +5,7 @@ const Developmentp = () => {
 
 
     return (
-        <div className='partners container pt-5 pb-5' style={{ borderBottom: '3px solid red' }}>
+        <div className='partners container pt-5 pb-5' style={{ borderBottom: '3px solid #14469f' }}>
             <div className="partners-head pb-2">
                 <h2 style={{ fontSize: '20px' }}>Development Partner</h2>
             </div>

@@ -5,7 +5,14 @@ import './style.css'
 const Hero = () => {
     return (
         <div className="carousels">
-            <Carousel fade className='carousel-fade' interval={2000} pause={false}>
+            <Carousel fade className='carousel-fade' interval={3000} pause={false}>
+                <Carousel.Item>
+                    <img
+                        className="d-block carousel_image w-100"
+                        src="./images/website.jpg"
+                        alt="First slide"
+                    />
+                </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block carousel_image w-100"

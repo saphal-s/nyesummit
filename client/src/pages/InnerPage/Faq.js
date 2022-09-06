@@ -66,7 +66,7 @@ const Faq = () => {
                         </p>
                         <h4>7. How do I register?</h4>
                         <p><span><FaHandPointRight className='hand' /></span>
-                            <a href=" https://www.nyesummit.org/register" target="__blank" className="ms-3">Click Here</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfWfR36U_8hJKlfkpBwAvWSmF6r-3NyImY3wryenlLIHWFwxA/viewform" target="__blank" className="ms-3">Click Here</a>
                         </p>
                         <h4>8. What is the registration fee?</h4>
                         <p><span><FaHandPointRight className='hand' /></span>
@@ -75,6 +75,9 @@ const Faq = () => {
                         <h4>9. What methods are available for payment?</h4>
                         <p><span><FaHandPointRight className='hand' /></span>
                             <div className='ps-5'>
+                                <div className="col-md-4 pb-4">
+                                    <img src="./images/qr.png" className='w-100' alt="" />
+                                </div>
                                 <h5 className='pb-3'><a className='text-black'>Payment Method</a></h5>
                                 <h6>Account Number: 1501017501098</h6>
                                 <h6>Bank Name: NABIL Bank</h6>

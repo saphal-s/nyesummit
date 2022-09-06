@@ -22,7 +22,6 @@ const Sponser = () => {
                     slidesToScroll: 1,
                     infinite: true,
                     autoplay: true,
-                    infinite: true,
                 }
             },
             {

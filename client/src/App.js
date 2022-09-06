@@ -2,7 +2,6 @@ import React from 'react';
 import Home from './pages/Home';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Pitch from './pages/InnerPage/Pitch';
-import RegisterForm from './pages/InnerPage/RegisterForm';
 import OrganizingC from './pages/InnerPage/OrganizingC';
 import AdvisoryC from './pages/InnerPage/AdvisoryC';
 import AboutNye from './pages/InnerPage/AboutNye';
@@ -29,7 +28,6 @@ const App = () => {
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/about-organizer" element={<AboutOrg />} />
         <Route path="/nyesummit-2019" element={<PastNyesummit />} />
-        <Route path="/register" element={<RegisterForm />} />
         <Route path="/faq" element={<Faq />} />
       </Routes>
     </BrowserRouter>

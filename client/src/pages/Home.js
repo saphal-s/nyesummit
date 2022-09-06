@@ -41,10 +41,20 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="col-md-6">
+
                                 <div className="about-nye-summit ">
-                                    <iframe style={{ width: '100%' }} height={295} className="video" src="https://www.youtube.com/embed/5pa6JFBgIKY" title="YouTube video player" frameBorder={0}
-                                        allow="accelerometer; autoplay; clipboard-write;
-                                 encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+                                    <iframe
+                                        src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fnyes2022%2Fvideos%2F485669306325719%2F&show_text=false&width=560&t=0"
+                                        width="100%"
+                                        height={295}
+                                        className="video"
+                                        style={{ border: "none", overflow: "hidden" }}
+                                        scrolling="no"
+                                        frameBorder={0}
+                                        allowFullScreen="true"
+                                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                                    />
+
                                 </div>
                             </div>
                         </div>

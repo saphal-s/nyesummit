@@ -63,7 +63,7 @@ const Header = () => {
                         </Link>
                     </Nav>
                     <Nav>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfWfR36U_8hJKlfkpBwAvWSmF6r-3NyImY3wryenlLIHWFwxA/viewform" target="__blank"><button className='head_register_button'>Apply</button></a>
+                        <Link to='/register'><button className='head_register_button'>Apply</button></Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

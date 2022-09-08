@@ -45,11 +45,11 @@ const OrganizingC = () => {
                             </div>
                             <div className="our-team">
                                 <div className="team-image">
-                                    <img src="./images/advisory/binaya.jpg" alt='advisory_image' />
+                                    <img src="./images/speaker/Sangammahat.jpg" alt='advisory_image' />
                                 </div>
                                 <div className="team-info">
-                                    <h3 className="title">Mr. Binaya Maharjan</h3>
-                                    <span className="post">Social Media Coordinator</span>
+                                    <h3 className="title">Mr. Sangam Mahat</h3>
+                                    <span className="post"> Program Coordinator</span>
                                 </div>
                             </div>
                             <div className="our-team">

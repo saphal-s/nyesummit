@@ -382,14 +382,14 @@ const Home = () => {
                                     <center>
                                         <div className="guest-card">
                                             <div className="card-image">
-                                                <img src="./images/speaker/first/vidhusirana.jpg" className='w-100' alt="guest_image" />
+                                                <img src="./images/speaker/Umeshraghubanshi.JPG" className='w-100' alt='advisory_image' />
                                             </div>
                                             <div className="card-content">
                                                 <div className="card-name">
-                                                    <h5 className='pt-1'>Vidushi Rana</h5>
+                                                    <h5 className='pt-1'>Mr. Umesh Raghubansi</h5>
                                                 </div>
                                                 <div className="card-info">
-                                                    <p>Director, Goldstar Shoes</p>
+                                                    <p>CEO, InfoDevelopers</p>
                                                 </div>
                                             </div>
                                         </div>

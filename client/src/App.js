@@ -12,6 +12,7 @@ import Schedule from './pages/InnerPage/Schedule';
 import AboutOrg from './pages/InnerPage/AboutOrg';
 import PastNyesummit from './pages/InnerPage/PastNyesummit';
 import Faq from './pages/InnerPage/Faq';
+import Register from './pages/InnerPage/Register';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/about-organizer" element={<AboutOrg />} />
         <Route path="/nyesummit-2019" element={<PastNyesummit />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/faq" element={<Faq />} />
       </Routes>
     </BrowserRouter>

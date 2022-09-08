@@ -97,15 +97,6 @@ const Speaker = () => {
                                     <span className="post"> CEO, InfoDevelopers </span>
                                 </div>
                             </div>
-                            <div className="our-team">
-                                <div className="team-image">
-                                    <img src="./images/speaker/first/vidhusirana.jpg" alt='advisory_image' />
-                                </div>
-                                <div className="team-info">
-                                    <h3 className="title">Vidushi <br /> Rana</h3>
-                                    <span className="post">Director, Goldstar Shoes</span>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -235,14 +235,14 @@ const Home = () => {
                                 <center>
                                     <div className="guest-card">
                                         <div className="card-image">
-                                            <img src="./images/speaker/first/dilendrasir.jpg" className='w-100' alt="guest_image" />
+                                            <img src="./images/speaker/rpp.jpg" className='w-100' alt="guest_image" />
                                         </div>
                                         <div className="card-content">
                                             <div className="card-name">
-                                                <h5 className='pt-1'>Hon'ble Dilendra Prasad Badu</h5>
+                                                <h5 className='pt-1'>Hon'ble Rajendra Prasad Pandey</h5>
                                             </div>
                                             <div className="card-info">
-                                                <p>Minister for Industry, Commerce and Supplies</p>
+                                                <p>Chief Minister, Bagmati Province Government</p>
                                             </div>
                                         </div>
                                     </div>
@@ -314,14 +314,14 @@ const Home = () => {
                                     <center>
                                         <div className="guest-card">
                                             <div className="card-image">
-                                                <img src="./images/speaker/first/mahaprasadadhikari.jpg" className='w-100' alt="guest_image" />
+                                                <img src="./images/speaker/pkg.jpg" className='w-100' alt="guest_image" />
                                             </div>
                                             <div className="card-content">
                                                 <div className="card-name">
-                                                    <h5 className='pt-1'>Maha Prasad Adhikari</h5>
+                                                    <h5 className='pt-1'>Mr. Pawan Kumar Golyan</h5>
                                                 </div>
                                                 <div className="card-info">
-                                                    <p>Governer, NRB</p>
+                                                    <p>Chairman, CBFIN</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -335,7 +335,7 @@ const Home = () => {
                                             </div>
                                             <div className="card-content">
                                                 <div className="card-name">
-                                                    <h5 className='pt-1'>Chandra Prasad Dhakal</h5>
+                                                    <h5 className='pt-1'>Mr. Chandra Prasad Dhakal</h5>
                                                 </div>
                                                 <div className="card-info">
                                                     <p>Senior VP, FNCCI</p>
@@ -348,14 +348,14 @@ const Home = () => {
                                     <center>
                                         <div className="guest-card">
                                             <div className="card-image">
-                                                <img src="./images/speaker/first/haribhaktasharma.png" className='w-100' alt="guest_image" />
+                                                <img src="./images/speaker/bhawanirana.jpg" className='w-100' alt="guest_image" />
                                             </div>
                                             <div className="card-content">
                                                 <div className="card-name">
-                                                    <h5 className='pt-1'>Hari Bhakta Sharma</h5>
+                                                    <h5 className='pt-1'>Mrs. Bhawani Rana</h5>
                                                 </div>
                                                 <div className="card-info">
-                                                    <p>Senior Entrepreneur</p>
+                                                    <p>Former President, FNCCI </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -365,14 +365,14 @@ const Home = () => {
                                     <center>
                                         <div className="guest-card">
                                             <div className="card-image">
-                                                <img src="./images/speaker/first/swarnimsir.jpg" className='w-100' alt="guest_image" />
+                                                <img src="./images/speaker/Siddhantarajpandey.jpg" className='w-100' alt="guest_image" />
                                             </div>
                                             <div className="card-content">
                                                 <div className="card-name">
-                                                    <h5 className='pt-1'>Swarnim Wagle</h5>
+                                                    <h5 className='pt-1'>Mr. Siddhanta Raj Pandey</h5>
                                                 </div>
                                                 <div className="card-info">
-                                                    <p>Former VP, NPC</p>
+                                                    <p>CEO, Business Oxygen</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -411,14 +411,14 @@ const Home = () => {
                             <div className="mcard">
                                 <div className="speakers-card">
                                     <div className="card-img">
-                                        <img src="./images/speaker/first/tikaramyatri.jpg" alt="speaker_img" />
+                                        <img src="./images/speaker/manoj.jpg" alt="speaker_img" />
                                     </div>
                                     <div className="card-title">
                                         <div className="card-name">
-                                            <h4>Tikaram Yatri</h4>
+                                            <h4>Mr. Manoj Gyawali</h4>
                                         </div>
                                         <div className="card-position">
-                                            <p>Senior Jonourlist</p>
+                                            <p>Banker</p>
                                         </div>
                                     </div>
                                 </div>
@@ -426,14 +426,14 @@ const Home = () => {
                             <div className="mcard">
                                 <div className="speakers-card">
                                     <div className="card-img">
-                                        <img src="./images/speaker/sudeepacharya.jpg" alt="speaker_img" />
+                                        <img src="./images/speaker/Rajaniregmi.jpg" alt="speaker_img" />
                                     </div>
                                     <div className="card-title">
                                         <div className="card-name">
-                                            <h4>Sudeep Aacharya</h4>
+                                            <h4>Ms. Rajani Regmi</h4>
                                         </div>
                                         <div className="card-position">
-                                            <p>Entrepreneur</p>
+                                            <p>Civil servant</p>
                                         </div>
                                     </div>
                                 </div>
@@ -445,7 +445,7 @@ const Home = () => {
                                     </div>
                                     <div className="card-title">
                                         <div className="card-name">
-                                            <h4>Bishal Gaire</h4>
+                                            <h4>Mr. Bishal Gaire</h4>
                                         </div>
                                         <div className="card-position">
                                             <p>Entrepreneur</p>
@@ -460,7 +460,7 @@ const Home = () => {
                                     </div>
                                     <div className="card-title">
                                         <div className="card-name">
-                                            <h4>Sugarika Kc</h4>
+                                            <h4>Ms. Sugarika Kc</h4>
                                         </div>
                                         <div className="card-position">
                                             <p>Media Person</p>
@@ -471,14 +471,14 @@ const Home = () => {
                             <div className="mcard">
                                 <div className="speakers-card">
                                     <div className="card-img">
-                                        <img src="./images/speaker/first/sangammahat.jpg" alt="speaker_img" />
+                                        <img src="./images/speaker/Sangammahat.jpg" alt="speaker_img" />
                                     </div>
                                     <div className="card-title">
                                         <div className="card-name">
-                                            <h4>Sangam Mahat</h4>
+                                            <h4>Mr. Sangam Mahat</h4>
                                         </div>
                                         <div className="card-position">
-                                            <p>Media Person</p>
+                                            <p>Program Coordinator</p>
                                         </div>
                                     </div>
                                 </div>

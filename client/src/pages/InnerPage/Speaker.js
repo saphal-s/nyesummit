@@ -26,6 +26,15 @@ const Speaker = () => {
                         <div className="rows">
                             <div className="our-team">
                                 <div className="team-image">
+                                    <img src="./images/speaker/first/sportandyouthminister.jpg" className='w-100' alt="guest_image" />
+                                </div>
+                                <div className="team-info">
+                                    <h3 className="title">Hon'ble Maheshwor Jung Gahatraj</h3>
+                                    <span className="post">Minister for Youth and Sports</span>
+                                </div>
+                            </div>
+                            <div className="our-team">
+                                <div className="team-image">
                                     <img src="./images/speaker/first/surendrapandey.jpg" className='w-100' alt="guest_image" />
                                 </div>
                                 <div className="team-info">
@@ -44,47 +53,48 @@ const Speaker = () => {
                             </div>
                             <div className="our-team">
                                 <div className="team-image">
-                                    <img src="./images/speaker/first/mahaprasadadhikari.jpg" className='w-100' alt="guest_image" />
+                                    <img src="./images/speaker/pkg.jpg" className='w-100' alt="guest_image" />
                                 </div>
                                 <div className="team-info">
-                                    <h3 className="title">Maha Prasad Adhikari</h3>
-                                    <span className="post">Governer</span>
+                                    <h3 className="title">Mr. Pawan Kumar Golyan</h3>
+                                    <span className="post">Chairman, CBFIN</span>
                                 </div>
                             </div>
                             <div className="our-team">
                                 <div className="team-image">
-                                    <img src="./images/speaker/first/sekhargolcha.jpg" alt='advisory_image' />
+                                    <img src="./images/speaker/first/chandrapddhakal.jpg" className='w-100' alt="guest_image" />
                                 </div>
                                 <div className="team-info">
-                                    <h3 className="title">Sekhar <br /> Golcha</h3>
-                                    <span className="post">President, FNCCI</span>
+                                    <h3 className="title">Mr. Chandra Prasad Dhakal</h3>
+                                    <span className="post">Senior VP, FNCCI</span>
                                 </div>
                             </div>
                             <div className="our-team">
                                 <div className="team-image">
-                                    <img src="./images/speaker/first/chandrapddhakal.jpg" alt='advisory_image' />
+                                    <img src="./images/speaker/bhawanirana.jpg" className='w-100' alt="guest_image" />
                                 </div>
                                 <div className="team-info">
-                                    <h3 className="title">Chandra Prasad Dhakal</h3>
-                                    <span className="post">Senior Vp, FNCCI</span>
+                                    <h3 className="title">Mrs. Bhawani Rana</h3>
+                                    <span className="post">Former President, FNCCI</span>
                                 </div>
                             </div>
                             <div className="our-team">
                                 <div className="team-image">
-                                    <img src="./images/speaker/first/haribhaktasharma.png" alt='advisory_image' />
+                                    <img src="./images/speaker/Siddhantarajpandey.jpg" className='w-100' alt="guest_image" />
+
                                 </div>
                                 <div className="team-info">
-                                    <h3 className="title">Hari Bhakta Sharma</h3>
-                                    <span className="post">Senior Entrepreneur</span>
+                                    <h3 className="title">Mr. Siddhanta Raj Pandey</h3>
+                                    <span className="post">CEO, Business Oxygen</span>
                                 </div>
                             </div>
                             <div className="our-team">
                                 <div className="team-image">
-                                    <img src="./images/speaker/first/swarnimsir.jpg" alt='advisory_image' />
+                                    <img src="./images/speaker/Umeshraghubanshi.JPG" alt='advisory_image' />
                                 </div>
                                 <div className="team-info">
-                                    <h3 className="title">Swarnim <br /> Wagle</h3>
-                                    <span className="post">Senior Economic Advisor</span>
+                                    <h3 className="title">Mr. Umesh Raghubansi</h3>
+                                    <span className="post"> CEO, InfoDevelopers </span>
                                 </div>
                             </div>
                             <div className="our-team">
